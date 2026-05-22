@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://ahrepairing.github.io/ahrepairing",
+  "homepage": "https://ahrepairing.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
