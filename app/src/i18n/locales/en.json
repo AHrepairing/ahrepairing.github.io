@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "phone": "+966541638686"
+  },
+  "hero": {
+    "title": "Fast & Reliable Electronics Repair",
+    "subtitle": "Get your devices fixed by expert technicians",
+    "cta": "Get Started",
+    "description": "We provide professional repair and maintenance services for split ACs, non-frost refrigerators, washing machines, ovens, and other home appliances. Our team of skilled technicians focuses on delivering reliable solutions to keep your devices running smoothly.",
+    "expertise": "Expert Team",
+    "quality": "Quality Service"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "At AH Repairing, we specialize in the repair and maintenance of split ACs, non-frost refrigerators, washing machines, ovens, and other household appliances. With a commitment to quality workmanship and customer satisfaction, our experienced technicians provide fast, reliable, and cost-effective solutions to ensure your appliances perform efficiently and reliably for years to come.",
+    "expertise": "Expert Team",
+    "quality": "Quality Service"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "What We Do",
+    "description": "We pride ourselves on delivering reliable, professional repair services for home appliances and electronics.",
+    "acRepair": "Split AC Repairing",
+    "acDesc": "Expert handling of cooling issues, gas refilling, compressor repair, leak detection, and full servicing for all split AC brands.",
+    "washingMachineRepair": "Washing Machine Repair",
+    "washingMachineDesc": "We fix drum problems, leaks, motor faults, vibration issues, and electrical failures.",
+    "ovenRepair": "Oven Repair",
+    "ovenDesc": "Gas and electric models. Ignition problems, thermostat repair, heating element replacement.",
+    "fridgeRepair": "Non-Frost Refrigerator Repair",
+    "fridgeDesc": "We fix cooling faults, compressor issues, temperature control, and defrost system problems.",
+    "tvRepair": "TV Repairing",
+    "tvDesc": "Expert in LED, LCD Screen issues, power faults, software errors, and board repairs.",
+    "dishwasherRepair": "Dishwasher Repair",
+    "dishwasherDesc": "We provide spray arm service, address heater problems, fix leaks, and resolve wash cycle failures."
+  },
+  "howWeWork": {
+    "title": "How We Work",
+    "subtitle": "Our Process",
+    "description": "A simple and efficient process designed to provide fast and reliable repair services.",
+    "step1": "Contact Us",
+    "step1Desc": "Call or message us to book your repair service, and share details about the issue.",
+    "step2": "Inspection & Diagnosis",
+    "step2Desc": "Our technician visits your location, checks the device, and identifies the exact problem.",
+    "step3": "Repair & Service",
+    "step3Desc": "We fix the issue using proper tools and quality spare parts to ensure reliable performance.",
+    "step4": "Testing & Completion",
+    "step4Desc": "After repair, we test the device to make sure everything works perfectly before completing."
+  },
+  "stats": {
+    "happy": "Happy Clients",
+    "devices": "Devices Repaired",
+    "years": "Years Experience",
+    "team": "Expert Team",
+    "servicesCompleted": "Services Completed",
+    "customerRating": "Customer Rating",
+    "happyCustomers": "Happy Customers",
+    "yearsExperience": "Years of Experience"
+  },
+  "testimonials": {
+    "label": "TESTIMONIALS",
+    "title": "What Our Clients Say",
+    "subtitle": "Hear from our satisfied clients who trust us for top-quality service.",
+    "quote1": "My washing machine suddenly stopped working, and I was worried about delays. These guys were quick, reliable, and very polite. They fixed everything on the spot. Great experience overall!",
+    "name1": "Faisal K.",
+    "location1": "Jeddah",
+    "quote2": "Excellent service! My AC stopped cooling in the middle of the day, and their technician arrived within hours. The issue was fixed quickly and now it's working perfectly. Highly recommended!",
+    "name2": "Ahmed R.",
+    "location2": "Jeddah",
+    "quote3": "I had a problem with my refrigerator not cooling properly. The team was very professional, explained the issue clearly, and used genuine parts. Pricing was fair and service was fast. Really satisfied!",
+    "name3": "Sara M.",
+    "location3": "Jeddah"
+  },
+  "why": {
+    "title": "Why Choose Us",
+    "subtitle": "Reliable Repair Services You Can Trust",
+    "description": "A simple and efficient service process designed to deliver fast, dependable, and high-quality repair solutions.",
+    "button": "About Us",
+    "feature1Title": "Customized Solutions",
+    "feature1Desc": "Tailored repair solutions for each device, ensuring optimal performance according to your needs.",
+    "feature2Title": "Timely Response",
+    "feature2Desc": "Fast response times with quick service to reduce downtime and restore your devices.",
+    "feature3Title": "Quality Parts",
+    "feature3Desc": "Reliable and high-quality spare parts to ensure efficient performance and longevity.",
+    "feature4Title": "Transparent Pricing",
+    "feature4Desc": "Clear and honest pricing with no hidden charges for confident decision-making."
+  },
+  "cta": {
+    "label": "GET A QUOTE",
+    "title": "Ready to Get Started?",
+    "subtitle": "Contact us today for a free quote",
+    "button": "Contact Now",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "footer": {
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "copyright": "All rights reserved.",
+    "subscribeNewsletter": "Subscribe Newsletter",
+    "emailPlaceholder": "Your Email Address",
+    "subscribe": "Subscribe",
+    "estimateTitle": "Get a Free Estimate Today!",
+    "estimateSubtitle": "Call us for a cost estimate over the phone",
+    "requestEstimate": "Request an Estimate",
+    "googleMap": "Google Map",
+    "openHours": "24 hours, 7 days a week"
+  }
+}
