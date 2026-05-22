@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { X } from 'lucide-react'
 
 export default function TermsNotificationModal() {
   const [isOpen, setIsOpen] = useState(false)
