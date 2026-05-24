@@ -42,7 +42,7 @@ export default function TermsNotificationModal() {
 
               <div className="bg-orange-100 border-l-4 border-orange-500 rounded-lg p-2 sm:p-3">
                 <p className="text-xs sm:text-sm font-bold text-orange-700">
-                  ⚠ Visit & Inspection Charges are FIXED at 50 Dirham.
+                  ⚠ Visit & Inspection Charges are FIXED at 50 SAR.
                 </p>
 
                 <p className="text-[11px] sm:text-xs text-orange-700 mt-1">

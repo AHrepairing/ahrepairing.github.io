@@ -51,12 +51,12 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`sticky top-0 z-50 h-[72px] border-b-2 border-orange-500 bg-gradient-to-b from-white to-orange-50 transition-all duration-300 shadow-[0_2px_12px_rgba(234,126,53,0.1)]`}
+      className={`sticky top-0 z-50 h-[56px] sm:h-[72px] border-b-2 border-orange-500 bg-gradient-to-b from-white to-orange-50 transition-all duration-300 shadow-[0_2px_12px_rgba(234,126,53,0.1)]`}
     >
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between gap-8">
         {/* Logo - Visible on all sizes */}
         <a href="#home" onClick={() => scrollTo('#home')} className="flex items-center shrink-0">
-          <img src="/logo.png" alt="AH Repairing" className="h-10 sm:h-12 w-auto" />
+          <img src="/logo.png" alt="AH Repairing" className="h-7 sm:h-12 w-auto" />
         </a>
 
         {/* Logo + Nav Group - Desktop only */}
@@ -88,7 +88,7 @@ export default function Navbar() {
           {/* Mobile Language Switcher */}
           <button
             onClick={toggleLanguage}
-            className="flex items-center justify-center gap-1 px-2 py-1.5 rounded-lg border-2 border-orange-500 hover:bg-orange-50 transition-all duration-300"
+            className="flex items-center justify-center gap-1 px-2 py-1 rounded-lg border-2 border-orange-500 hover:bg-orange-50 transition-all duration-300"
             title={language === 'en' ? 'Switch to Arabic' : 'Switch to English'}
           >
             {language === 'ar' ? (
@@ -106,7 +106,7 @@ export default function Navbar() {
         </div>
 
         {/* Right side: Language Switcher + CTA - Desktop */}
-        <div className="hidden lg:flex items-center gap-4 ml-auto\">
+        <div className="hidden lg:flex items-center gap-4 ml-auto">
           {/* Language Switcher with Flag Icons */}
           <button
             onClick={toggleLanguage}
@@ -138,7 +138,7 @@ export default function Navbar() {
 
         {/* Mobile menu button */}
         <button
-          className="lg:hidden p-2"
+          className="lg:hidden p-1.5"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
         >
@@ -148,7 +148,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="lg:hidden absolute top-[72px] left-0 right-0 bg-white border-b border-gray-200 shadow-lg">
+        <div className="lg:hidden absolute top-[56px] sm:top-[72px] left-0 right-0 bg-white border-b border-gray-200 shadow-lg">
           <div className="px-4 py-4 flex flex-col gap-3">
             {navLinks.map((link) => (
               <a

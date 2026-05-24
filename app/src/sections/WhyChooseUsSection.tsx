@@ -64,7 +64,7 @@ export default function WhyChooseUsSection() {
                 e.preventDefault()
                 document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })
               }}
-              className="mt-6 inline-block bg-orange-500 text-white px-8 py-3.5 rounded-lg text-sm font-semibold transition-all duration-300 hover:bg-orange-600"
+              className="mt-6 inline-block bg-orange-500 text-white px-5 py-2.5 sm:px-8 sm:py-3.5 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-300 hover:bg-orange-600"
             >
               {t('why.button')}
             </a>

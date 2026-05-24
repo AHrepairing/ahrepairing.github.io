@@ -74,13 +74,13 @@ export default function TestimonialsSection() {
                 </div>
 
                 {/* Quote */}
-                <p className="mt-4 text-lg text-gray-700 leading-relaxed italic transition-opacity duration-400">
+                <p className="mt-4 text-sm sm:text-lg text-gray-700 leading-relaxed italic transition-opacity duration-400">
                   &ldquo;{testimonials[active].quote}&rdquo;
                 </p>
 
                 {/* Customer */}
                 <div className="mt-5">
-                  <p className="text-base font-semibold text-gray-900">{testimonials[active].name}</p>
+                  <p className="text-sm sm:text-base font-semibold text-gray-900">{testimonials[active].name}</p>
                   <p className="text-sm text-gray-500">{testimonials[active].location}</p>
                 </div>
               </div>

@@ -16,9 +16,12 @@
   },
   "about": {
     "title": "About Us",
+    "subtitle": "Who We Are",
     "description": "At AH Repairing, we specialize in the repair and maintenance of split ACs, non-frost refrigerators, washing machines, ovens, and other household appliances. With a commitment to quality workmanship and customer satisfaction, our experienced technicians provide fast, reliable, and cost-effective solutions to ensure your appliances perform efficiently and reliably for years to come.",
     "expertise": "Expert Team",
-    "quality": "Quality Service"
+    "expertiseDesc": "Certified technicians with years of hands-on experience across all major appliance brands.",
+    "quality": "Quality Service",
+    "qualityDesc": "We use genuine parts and proven techniques to ensure lasting, reliable repairs every time."
   },
   "services": {
     "title": "Our Services",
