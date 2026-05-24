@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import type { LucideIcon } from 'lucide-react'
-import { Wind, Flame, Laptop, Tv, Refrigerator } from 'lucide-react'
+import { Wind, Flame, UtensilsCrossed, Refrigerator } from 'lucide-react'
 
 interface Service {
   icon: LucideIcon
@@ -43,18 +43,18 @@ export default function ServicesSection() {
       descKey: 'services.fridgeDesc',
     },
     {
-      icon: Tv,
-      category: 'TV',
-      image: '/LED_tv.png',
-      titleKey: 'services.tvRepair',
-      descKey: 'services.tvDesc',
-    },
-    {
-      icon: Laptop,
+      icon: Refrigerator,
       category: 'Dishwasher',
       image: '/dishwasher2.jpg',
       titleKey: 'services.dishwasherRepair',
       descKey: 'services.dishwasherDesc',
+    },
+    {
+      icon: UtensilsCrossed,
+      category: 'Kitchen',
+      image: '/kitchen-appliances.jpg',
+      titleKey: 'services.kitchenRepair',
+      descKey: 'services.kitchenDesc',
     },
   ]
 

@@ -35,10 +35,10 @@
     "ovenDesc": "Gas and electric models. Ignition problems, thermostat repair, heating element replacement.",
     "fridgeRepair": "Non-Frost Refrigerator Repair",
     "fridgeDesc": "We fix cooling faults, compressor issues, temperature control, and defrost system problems.",
-    "tvRepair": "TV Repairing",
-    "tvDesc": "Expert in LED, LCD Screen issues, power faults, software errors, and board repairs.",
     "dishwasherRepair": "Dishwasher Repair",
-    "dishwasherDesc": "We provide spray arm service, address heater problems, fix leaks, and resolve wash cycle failures."
+    "dishwasherDesc": "We provide spray arm service, address heater problems, fix leaks, and resolve wash cycle failures.",
+    "kitchenRepair": "Other Kitchen Appliances",
+    "kitchenDesc": "Repair and maintenance for blenders, microwaves, electric kettles, and other kitchen appliances."
   },
   "howWeWork": {
     "title": "How We Work",
@@ -137,7 +137,7 @@
     "q2": "How fast can you send a technician for washing machine repair in Jeddah?",
     "a2": "We offer same-day or next-day service across Jeddah. Contact us via WhatsApp or call +966541638686 and we will confirm your appointment. Our technicians are based across the city for fast response.",
     "q3": "What home appliances do you repair in Jeddah?",
-    "a3": "We repair split air conditioners (AC), washing machines, gas and electric ovens, non-frost refrigerators, LED and LCD TVs, and dishwashers. We cover all major brands and models for homes across Jeddah.",
+    "a3": "We repair split air conditioners (AC), washing machines, gas and electric ovens, non-frost refrigerators, dishwashers, and other kitchen appliances such as blenders, microwaves, coffee machines, and water dispensers. We cover all major brands and models for homes across Jeddah.",
     "q4": "How much does AC repair cost in Jeddah?",
     "a4": "Repair costs depend on the appliance type and fault. We charge a fixed 50 SAR visit and inspection fee. After diagnosis, we provide a transparent quote before any repair work begins — no hidden charges.",
     "q5": "Do you use genuine spare parts for appliance repairs?",
