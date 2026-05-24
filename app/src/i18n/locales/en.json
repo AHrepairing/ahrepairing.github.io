@@ -98,6 +98,20 @@
     "button": "Contact Now",
     "whatsapp": "Chat on WhatsApp"
   },
+  "modal": {
+    "title": "Important Notice",
+    "welcome": "Welcome to AH Repairing Services",
+    "chargeTitle": "⚠ Visit & Inspection Charges are FIXED at 50 SAR.",
+    "chargeDesc": "This charge applies for technician visit, checking, diagnosis, and inspection services, even if repair work is not carried out.",
+    "privacyTitle": "Privacy & Confidentiality:",
+    "privacyDesc": "We respect your privacy and will not share your personal information with third parties without your consent. Your contact details are used solely for service-related communication.",
+    "warrantyTitle": "Warranty Disclaimer:",
+    "warrantyDesc": "While we strive to provide the best service, we cannot guarantee 100% compatibility with all devices. We recommend consulting with our technicians before proceeding with repairs.",
+    "liabilityTitle": "Limitation of Liability:",
+    "liabilityDesc": "AH Repairing Services shall not be held liable for any indirect, incidental, or consequential damages arising from the use of our services.",
+    "agree": "I Agree & Close",
+    "close": "Close"
+  },
   "footer": {
     "about": "About",
     "services": "Services",
