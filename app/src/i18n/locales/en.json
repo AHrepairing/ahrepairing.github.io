@@ -127,5 +127,30 @@
     "requestEstimate": "Request an Estimate",
     "googleMap": "Google Map",
     "openHours": "24 hours, 7 days a week"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Got questions about appliance repair in Jeddah? We have answers.",
+    "q1": "Do you repair all split AC brands in Jeddah?",
+    "a1": "Yes, AH Repairing services all major split AC brands including Samsung, LG, Carrier, Gree, Midea, Haier, Daikin, and more across all Jeddah neighborhoods. We handle cooling problems, gas refilling, compressor repair, leak detection, and full AC servicing.",
+    "q2": "How fast can you send a technician for washing machine repair in Jeddah?",
+    "a2": "We offer same-day or next-day service across Jeddah. Contact us via WhatsApp or call +966541638686 and we will confirm your appointment. Our technicians are based across the city for fast response.",
+    "q3": "What home appliances do you repair in Jeddah?",
+    "a3": "We repair split air conditioners (AC), washing machines, gas and electric ovens, non-frost refrigerators, LED and LCD TVs, and dishwashers. We cover all major brands and models for homes across Jeddah.",
+    "q4": "How much does AC repair cost in Jeddah?",
+    "a4": "Repair costs depend on the appliance type and fault. We charge a fixed 50 SAR visit and inspection fee. After diagnosis, we provide a transparent quote before any repair work begins — no hidden charges.",
+    "q5": "Do you use genuine spare parts for appliance repairs?",
+    "a5": "Yes. We use genuine and high-quality spare parts for all repairs to ensure lasting performance. Our technicians will explain the parts used and the warranty that applies.",
+    "q6": "Which areas in Jeddah do you cover for home appliance repair?",
+    "a6": "We serve all Jeddah neighborhoods including Al Rawdah, Al Salamah, Al Hamra, Al Nuzha, Al Aziziyah, Obhur, Al Faisaliyah, Al Zahra, Al Safa, Al Andalus, Al Shati, Corniche, and all surrounding areas within 30 km.",
+    "q7": "Is your appliance repair service available 24 hours?",
+    "a7": "Yes, AH Repairing is available 24 hours a day, 7 days a week. Call or WhatsApp us anytime at +966541638686 for emergency appliance repair in Jeddah."
+  },
+  "area": {
+    "label": "SERVICE COVERAGE",
+    "title": "Appliance Repair Across All Jeddah Neighborhoods",
+    "subtitle": "Our technicians are based across Jeddah to reach you fast — wherever you are in the city.",
+    "note": "Not seeing your area? Call us — we likely cover it. +966541638686"
   }
 }
