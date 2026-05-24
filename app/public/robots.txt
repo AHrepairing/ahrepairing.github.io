@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ahrepairing.github.io/sitemap.xml
+Sitemap: https://ahrepairing.com/sitemap.xml
