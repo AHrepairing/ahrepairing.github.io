@@ -55,7 +55,7 @@ function AnimatedNumber({ value, suffix, isDecimal }: { value: number; suffix: s
     : Math.floor(display).toLocaleString()
 
   return (
-    <div ref={ref} className="text-5xl lg:text-[56px] font-bold text-white">
+    <div ref={ref} className="text-3xl sm:text-4xl lg:text-[56px] font-bold text-white">
       {formatted}
       {suffix}
     </div>
@@ -66,10 +66,10 @@ export default function StatsSection() {
   const { t } = useTranslation()
 
   const stats: Stat[] = [
-    { value: '2,500+', numericValue: 900, suffix: '+', label: t('stats.servicesCompleted') },
+    { value: '900+', numericValue: 900, suffix: '+', label: t('stats.servicesCompleted') },
     { value: '4.9/5', numericValue: 4.9, suffix: '/5', label: t('stats.customerRating'), isDecimal: true },
-    { value: '1,800+', numericValue: 850, suffix: '+', label: t('stats.happyCustomers') },
-    { value: '8+', numericValue: 5, suffix: '+', label: t('stats.yearsExperience') },
+    { value: '850+', numericValue: 850, suffix: '+', label: t('stats.happyCustomers') },
+    { value: '5+', numericValue: 5, suffix: '+', label: t('stats.yearsExperience') },
   ]
 
   return (

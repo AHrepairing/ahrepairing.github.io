@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function TermsNotificationModal() {
+  const { t } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
@@ -30,40 +32,35 @@ export default function TermsNotificationModal() {
         <div className="bg-white rounded-xl shadow-2xl border-2 border-orange-500 overflow-hidden">
           {/* Header */}
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 px-4 sm:px-6 py-3 sm:py-4">
-            <h2 className="text-lg sm:text-xl font-bold text-white">Important Notice</h2>
+            <h2 className="text-lg sm:text-xl font-bold text-white">{t('modal.title')}</h2>
           </div>
 
           {/* Content */}
           <div className="px-4 sm:px-6 py-4 sm:py-5 max-h-[55vh] sm:max-h-[50vh] overflow-y-auto">
             <div className="space-y-2 sm:space-y-3 text-gray-700 leading-relaxed">
               <p className="text-sm sm:text-base font-semibold text-gray-900">
-                Welcome to AH Repairing Services
+                {t('modal.welcome')}
               </p>
 
               <div className="bg-orange-100 border-l-4 border-orange-500 rounded-lg p-2 sm:p-3">
                 <p className="text-xs sm:text-sm font-bold text-orange-700">
-                  ⚠ Visit & Inspection Charges are FIXED at 50 Dirham.
+                  {t('modal.chargeTitle')}
                 </p>
-
                 <p className="text-[11px] sm:text-xs text-orange-700 mt-1">
-                  This charge applies for technician visit, checking, diagnosis, and inspection services, even if repair work is not carried out.
+                  {t('modal.chargeDesc')}
                 </p>
               </div>
 
               <div className="space-y-1.5 sm:space-y-2 text-[11px] sm:text-xs">
-
                 <p>
-                  <strong>Privacy & Confidentiality:</strong> We respect your privacy and will not share your personal information with third parties without your consent. Your contact details are used solely for service-related communication.
+                  <strong>{t('modal.privacyTitle')}</strong> {t('modal.privacyDesc')}
                 </p>
-
                 <p>
-                  <strong>Warranty Disclaimer:</strong> While we strive to provide the best service, we cannot guarantee 100% compatibility with all devices. We recommend consulting with our technicians before proceeding with repairs.
+                  <strong>{t('modal.warrantyTitle')}</strong> {t('modal.warrantyDesc')}
                 </p>
-
                 <p>
-                  <strong>Limitation of Liability:</strong> AH Repairing Services shall not be held liable for any indirect, incidental, or consequential damages arising from the use of our services.
+                  <strong>{t('modal.liabilityTitle')}</strong> {t('modal.liabilityDesc')}
                 </p>
-
               </div>
             </div>
           </div>
@@ -74,13 +71,13 @@ export default function TermsNotificationModal() {
               onClick={handleClose}
               className="flex-1 bg-orange-500 text-white px-3 sm:px-4 py-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-300 hover:bg-orange-600 active:scale-95"
             >
-              I Agree & Close
+              {t('modal.agree')}
             </button>
             <button
               onClick={handleClose}
               className="px-3 sm:px-4 py-2 text-gray-700 border-2 border-gray-300 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-300 hover:border-gray-400"
             >
-              Close
+              {t('modal.close')}
             </button>
           </div>
         </div>

@@ -16,9 +16,12 @@
   },
   "about": {
     "title": "About Us",
+    "subtitle": "Who We Are",
     "description": "At AH Repairing, we specialize in the repair and maintenance of split ACs, non-frost refrigerators, washing machines, ovens, and other household appliances. With a commitment to quality workmanship and customer satisfaction, our experienced technicians provide fast, reliable, and cost-effective solutions to ensure your appliances perform efficiently and reliably for years to come.",
     "expertise": "Expert Team",
-    "quality": "Quality Service"
+    "expertiseDesc": "Certified technicians with years of hands-on experience across all major appliance brands.",
+    "quality": "Quality Service",
+    "qualityDesc": "We use genuine parts and proven techniques to ensure lasting, reliable repairs every time."
   },
   "services": {
     "title": "Dishwasher & Washing Machine Repair",
@@ -32,13 +35,13 @@
     "ovenDesc": "Gas and electric models. Ignition problems, thermostat repair, heating element replacement.",
     "fridgeRepair": "Non-Frost Refrigerator Repair",
     "fridgeDesc": "We fix cooling faults, compressor issues, temperature control, and defrost system problems.",
-    "tvRepair": "TV Repairing",
-    "tvDesc": "Expert in LED, LCD Screen issues, power faults, software errors, and board repairs.",
     "dishwasherRepair": "Dishwasher Repair",
     "dishwasherDesc": "We provide spray arm service, address heater problems, fix leaks, and resolve wash cycle failures.",
     "supportedBrandsTitle": "Supported Brands",
     "supportedBrandsDescription": "We support trusted washing machine and dishwasher brands, helping customers get reliable repair solutions for their everyday appliances.",
-    "brandPlaceholder": "Add brand image"
+    "brandPlaceholder": "Add brand image",
+    "kitchenRepair": "Other Kitchen Appliances",
+    "kitchenDesc": "Repair and maintenance for blenders, microwaves, electric kettles, and other kitchen appliances."
   },
   "howWeWork": {
     "title": "How We Work",
@@ -66,14 +69,14 @@
   "testimonials": {
     "label": "TESTIMONIALS",
     "title": "What Our Clients Say",
-    "subtitle": "Hear from our satisfied clients who trust us for top-quality service.",
-    "quote1": "My washing machine suddenly stopped working, and I was worried about delays. These guys were quick, reliable, and very polite. They fixed everything on the spot. Great experience overall!",
+    "subtitle": "Hear from our satisfied clients who trust us for dependable washing machine and dishwasher repair service.",
+    "quote1": "My washing machine stopped working suddenly, and I was worried about delays. The team came quickly, fixed the issue professionally, and the machine is working perfectly again. Great service!",
     "name1": "Faisal K.",
     "location1": "Mekkah",
-    "quote2": "Excellent service! My AC stopped cooling in the middle of the day, and their technician arrived within hours. The issue was fixed quickly and now it's working perfectly. Highly recommended!",
+    "quote2": "Excellent service! My dishwasher had a leak and the repair was done fast and neatly. The technician explained everything clearly and the appliance is working great now.",
     "name2": "Ahmed R.",
     "location2": "Mekkah",
-    "quote3": "I had a problem with my refrigerator not cooling properly. The team was very professional, explained the issue clearly, and used genuine parts. Pricing was fair and service was fast. Really satisfied!",
+    "quote3": "I had a problem with my washing machine not spinning properly. The team was professional, used quality parts, and completed the repair efficiently. Very satisfied!",
     "name3": "Sara M.",
     "location3": "Mekkah"
   },
@@ -98,6 +101,20 @@
     "button": "Contact Now",
     "whatsapp": "Chat on WhatsApp"
   },
+  "modal": {
+    "title": "Important Notice",
+    "welcome": "Welcome to AH Repairing Services",
+    "chargeTitle": "⚠ Visit & Inspection Charges are FIXED at 50 SAR.",
+    "chargeDesc": "This charge applies for technician visit, checking, diagnosis, and inspection services, even if repair work is not carried out.",
+    "privacyTitle": "Privacy & Confidentiality:",
+    "privacyDesc": "We respect your privacy and will not share your personal information with third parties without your consent. Your contact details are used solely for service-related communication.",
+    "warrantyTitle": "Warranty Disclaimer:",
+    "warrantyDesc": "While we strive to provide the best service, we cannot guarantee 100% compatibility with all devices. We recommend consulting with our technicians before proceeding with repairs.",
+    "liabilityTitle": "Limitation of Liability:",
+    "liabilityDesc": "AH Repairing Services shall not be held liable for any indirect, incidental, or consequential damages arising from the use of our services.",
+    "agree": "I Agree & Close",
+    "close": "Close"
+  },
   "footer": {
     "about": "About",
     "services": "Services",
@@ -113,5 +130,30 @@
     "requestEstimate": "Request an Estimate",
     "googleMap": "Google Map",
     "openHours": "24 hours, 7 days a week"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Here are common questions about washing machine and dishwasher repair in Mekkah.",
+    "q1": "Do you repair washing machines in Mekkah?",
+    "a1": "Yes. We repair washing machines for common issues such as drum problems, water leakage, motor faults, vibration, and electrical failures.",
+    "q2": "How fast can you send a technician for washing machine repair?",
+    "a2": "We usually offer same-day or next-day service across Mekkah. Contact us on WhatsApp or call +966541638686 to confirm your appointment quickly.",
+    "q3": "Do you repair dishwashers as well?",
+    "a3": "Yes. We provide dishwasher repair for spray arm issues, heater problems, leaks, poor cleaning performance, and cycle failures.",
+    "q4": "How much does washing machine or dishwasher repair cost?",
+    "a4": "The cost depends on the fault and the required parts. We charge a fixed 50 SAR visit and inspection fee, and we provide a clear quote before any repair begins.",
+    "q5": "Do you use genuine spare parts for washing machine and dishwasher repairs?",
+    "a5": "Yes. We use genuine and high-quality spare parts to ensure reliable repairs and long-lasting performance.",
+    "q6": "Which areas in Mekkah do you cover for appliance repair?",
+    "a6": "We serve all major neighborhoods in Mekkah, including Al Rawdah, Al Salamah, Al Hamra, Al Nuzha, Al Aziziyah, Obhur, Al Faisaliyah, Al Zahra, Al Safa, Al Andalus, Al Shati, and the Corniche.",
+    "q7": "Is your service available for urgent repairs?",
+    "a7": "Yes. We provide urgent support for washing machine and dishwasher repairs and are available 24/7 through call or WhatsApp at +966541638686."
+  },
+  "area": {
+    "label": "SERVICE COVERAGE",
+    "title": "Repair Service Across Popular Mekkah Cities",
+    "subtitle": "We provide fast washing machine and dishwasher repair support across major Mekkah areas, including popular cities and neighborhoods.",
+    "note": "Not seeing your area? Call us — we likely cover it. +966541638686"
   }
 }

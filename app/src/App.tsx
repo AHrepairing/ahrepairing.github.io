@@ -8,6 +8,8 @@ import HowWeWorkSection from './sections/HowWeWorkSection'
 import StatsSection from './sections/StatsSection'
 import WhyChooseUsSection from './sections/WhyChooseUsSection'
 import TestimonialsSection from './sections/TestimonialsSection'
+import FAQSection from './sections/FAQSection'
+import ServiceAreaSection from './sections/ServiceAreaSection'
 import CTABannerSection from './sections/CTABannerSection'
 import FooterSection from './sections/FooterSection'
 import FloatingButtons from './sections/FloatingButtons'
@@ -27,6 +29,8 @@ export default function App() {
       <StatsSection />
       <WhyChooseUsSection />
       <TestimonialsSection />
+      <FAQSection />
+      <ServiceAreaSection />
       <CTABannerSection />
       <FooterSection />
       <FloatingButtons />

@@ -20,7 +20,7 @@ export default function AboutSection() {
 
           {/* Content */}
           <div>
-            <span className="section-label">{t('about.title')}</span>
+            <span className="section-label">{t('about.subtitle')}</span>
             <h2 className="mt-4 text-[clamp(28px,3.5vw,42px)] font-bold text-gray-900 leading-tight">
               {t('about.title')}
             </h2>
@@ -34,14 +34,14 @@ export default function AboutSection() {
                 <Trophy size={32} className="text-orange-500" />
                 <h4 className="mt-3 text-base font-semibold text-gray-900">{t('about.expertise')}</h4>
                 <p className="mt-1.5 text-sm text-gray-500">
-                  {t('about.expertise')}
+                  {t('about.expertiseDesc')}
                 </p>
               </div>
               <div className="bg-gray-50 rounded-xl p-5 border border-gray-100">
                 <Headphones size={32} className="text-orange-500" />
                 <h4 className="mt-3 text-base font-semibold text-gray-900">{t('about.quality')}</h4>
                 <p className="mt-1.5 text-sm text-gray-500">
-                  {t('about.quality')}
+                  {t('about.qualityDesc')}
                 </p>
               </div>
             </div>
