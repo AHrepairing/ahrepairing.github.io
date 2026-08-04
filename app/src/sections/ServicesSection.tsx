@@ -30,7 +30,14 @@ export default function ServicesSection() {
     },
   ]
 
-  const brands = ['Samsung', 'LG', 'Whirlpool', 'Bosch', 'Electrolux', 'Siemens']
+  const brands = [
+    { name: 'Samsung', image: '/samsung.png' },
+    { name: 'LG', image: '/LG_image.png' },
+    { name: 'Whirlpool', image: '/whirlpool.png' },
+    { name: 'Bosch', image: '/Bosch_image.png' },
+    { name: 'Electrolux', image: '/Electrolux.png' },
+    { name: 'Siemens', image: '/siemens_image.png' },
+  ]
 
   return (
     <section id="services" className="bg-gray-50 py-24 lg:py-28">
@@ -82,11 +89,16 @@ export default function ServicesSection() {
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {brands.map((brand) => (
-              <div key={brand} className="rounded-2xl border border-dashed border-gray-300 bg-gray-50 p-6 text-center">
-                <div className="flex h-20 items-center justify-center rounded-xl border border-gray-200 bg-white text-sm font-semibold text-gray-600">
-                  {brand}
+              <div key={brand.name} className="rounded-2xl border border-gray-200 bg-gray-50 p-6 text-center">
+                <div className="flex h-24 items-center justify-center rounded-xl border border-gray-200 bg-white p-4">
+                  <img
+                    src={brand.image}
+                    alt={brand.name}
+                    className="max-h-full max-w-full object-contain"
+                    loading="lazy"
+                  />
                 </div>
-                <p className="mt-3 text-xs uppercase tracking-[0.2em] text-gray-400">{t('services.brandPlaceholder')}</p>
+                <p className="mt-3 text-sm font-semibold text-gray-700">{brand.name}</p>
               </div>
             ))}
           </div>

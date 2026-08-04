@@ -6,15 +6,8 @@ export default function HeroSection() {
   
   return (
     <section id="home" className="relative min-h-[100dvh] overflow-hidden flex items-center">
-      {/* Background gradient */}
-      <div
-        className="absolute inset-0"
-        style={{
-          background: 'linear-gradient(135deg, #1A1A2E 0%, #16213E 40%, #0F3460 70%, #1A1A2E 100%)',
-        }}
-      />
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-900/70 to-slate-950/50" />
 
-      {/* Particle canvas */}
       <div className="absolute inset-0">
         <ParticleCanvas />
       </div>
