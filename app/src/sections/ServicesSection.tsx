@@ -52,33 +52,21 @@ export default function ServicesSection() {
           </p>
         </div>
 
-        <div className="mt-8 flex flex-wrap justify-center gap-3">
-          {['Fast diagnosis', 'Same-day support', 'Genuine parts'].map((item) => (
-            <div
-              key={item}
-              className="rounded-full border border-orange-200 bg-orange-50 px-4 py-2 text-sm font-medium text-orange-700"
-            >
-              {item}
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-10 grid gap-8 lg:grid-cols-2 lg:gap-10">
+        <div className="mt-14 grid gap-8 lg:grid-cols-2 lg:gap-10">
           {services.map((service) => {
             return (
               <div
                 key={service.titleKey}
-                className="group overflow-hidden rounded-[24px] border border-gray-200 bg-white shadow-[0_10px_40px_rgba(15,23,42,0.06)] transition-all duration-400 hover:-translate-y-2 hover:shadow-[0_22px_70px_rgba(15,23,42,0.14)]"
+                className="bg-white rounded-2xl overflow-hidden border border-gray-200 transition-all duration-400 hover:-translate-y-2 hover:shadow-[0_20px_64px_rgba(0,0,0,0.12)] hover:border-transparent group"
               >
-                <div className="relative h-56 w-full overflow-hidden bg-gray-300">
+                <div className="relative w-full h-56 overflow-hidden bg-gray-300">
                   <img
                     src={service.image}
                     alt={t(service.titleKey)}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent" />
                   <div className="absolute top-4 left-4">
-                    <span className="inline-block rounded-full bg-orange-500 px-3 py-1.5 text-xs font-semibold text-white">
+                    <span className="inline-block bg-orange-500 text-white text-xs font-semibold px-3 py-1.5 rounded-full">
                       {service.category}
                     </span>
                   </div>
@@ -86,7 +74,7 @@ export default function ServicesSection() {
 
                 <div className="p-6">
                   <h3 className="text-lg font-bold text-gray-900">{t(service.titleKey)}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-gray-600">{t(service.descKey)}</p>
+                  <p className="mt-2 text-sm text-gray-600 leading-relaxed">{t(service.descKey)}</p>
                 </div>
               </div>
             )
