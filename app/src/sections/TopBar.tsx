@@ -18,7 +18,7 @@ export default function TopBar() {
           <div className="flex items-center gap-6 text-[13px] text-white/70">
             <span className="flex items-center gap-2">
               <MapPin size={14} className="text-orange-500" />
-              Jeddah, Saudi Arabia
+              Mekkah, Saudi Arabia
             </span>
             <a href="tel:+966541638686" className="flex items-center gap-2 hover:text-orange-500 transition-colors">
               <Phone size={14} className="text-orange-500" />

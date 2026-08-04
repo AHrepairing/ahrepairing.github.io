@@ -7,11 +7,7 @@ export default function FooterSection() {
   const [email, setEmail] = useState('')
 
   const serviceLinks = [
-    { label: t('services.acRepair'), titleKey: 'services.acRepair' },
     { label: t('services.washingMachineRepair'), titleKey: 'services.washingMachineRepair' },
-    { label: t('services.ovenRepair'), titleKey: 'services.ovenRepair' },
-    { label: t('services.fridgeRepair'), titleKey: 'services.fridgeRepair' },
-    { label: t('services.tvRepair'), titleKey: 'services.tvRepair' },
     { label: t('services.dishwasherRepair'), titleKey: 'services.dishwasherRepair' },
   ]
 
@@ -79,16 +75,16 @@ export default function FooterSection() {
             </div>
             <div className="space-y-3">
               <a
-                href="https://www.google.com/maps/place/Jeddah,+Saudi Arabia"
+                href="https://www.google.com/maps/place/Mekkah,+Saudi Arabia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-white/60 hover:text-orange-500 transition-colors"
               >
                 <MapPin size={16} className="shrink-0" />
-                Jeddah, Saudi Arabia
+                Mekkah, Saudi Arabia
               </a>
               <a
-                href="https://www.google.com/maps/place/Jeddah,+Saudi Arabia"
+                href="https://www.google.com/maps/place/Mekkah,+Saudi Arabia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block text-sm text-orange-500 hover:underline"

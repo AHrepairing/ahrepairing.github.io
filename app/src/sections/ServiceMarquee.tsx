@@ -1,5 +1,5 @@
 export default function ServiceMarquee() {
-  const services = 'Split AC Repairing \u25C6 Washing Machine Repair \u25C6 Oven Repair \u25C6 Non-Frost Refrigerator Repair \u25C6 TV Repairing \u25C6 Dishwasher Repair \u25C6 '
+  const services = 'Washing Machine Repair ◆ Dishwasher Repair ◆ '
 
   return (
     <div className="w-full bg-white py-5 overflow-hidden border-y border-gray-100">

@@ -21,9 +21,9 @@
     "quality": "Quality Service"
   },
   "services": {
-    "title": "Our Services",
+    "title": "Dishwasher & Washing Machine Repair",
     "subtitle": "What We Do",
-    "description": "We pride ourselves on delivering reliable, professional repair services for home appliances and electronics.",
+    "description": "We specialize in professional repair and maintenance for washing machines and dishwashers, with trusted solutions for everyday household needs.",
     "acRepair": "Split AC Repairing",
     "acDesc": "Expert handling of cooling issues, gas refilling, compressor repair, leak detection, and full servicing for all split AC brands.",
     "washingMachineRepair": "Washing Machine Repair",
@@ -35,7 +35,10 @@
     "tvRepair": "TV Repairing",
     "tvDesc": "Expert in LED, LCD Screen issues, power faults, software errors, and board repairs.",
     "dishwasherRepair": "Dishwasher Repair",
-    "dishwasherDesc": "We provide spray arm service, address heater problems, fix leaks, and resolve wash cycle failures."
+    "dishwasherDesc": "We provide spray arm service, address heater problems, fix leaks, and resolve wash cycle failures.",
+    "supportedBrandsTitle": "Supported Brands",
+    "supportedBrandsDescription": "We work with leading appliance brands. Add your brand logo images below to showcase the manufacturers we support.",
+    "brandPlaceholder": "Add brand image"
   },
   "howWeWork": {
     "title": "How We Work",
@@ -66,13 +69,13 @@
     "subtitle": "Hear from our satisfied clients who trust us for top-quality service.",
     "quote1": "My washing machine suddenly stopped working, and I was worried about delays. These guys were quick, reliable, and very polite. They fixed everything on the spot. Great experience overall!",
     "name1": "Faisal K.",
-    "location1": "Jeddah",
+    "location1": "Mekkah",
     "quote2": "Excellent service! My AC stopped cooling in the middle of the day, and their technician arrived within hours. The issue was fixed quickly and now it's working perfectly. Highly recommended!",
     "name2": "Ahmed R.",
-    "location2": "Jeddah",
+    "location2": "Mekkah",
     "quote3": "I had a problem with my refrigerator not cooling properly. The team was very professional, explained the issue clearly, and used genuine parts. Pricing was fair and service was fast. Really satisfied!",
     "name3": "Sara M.",
-    "location3": "Jeddah"
+    "location3": "Mekkah"
   },
   "why": {
     "title": "Why Choose Us",
