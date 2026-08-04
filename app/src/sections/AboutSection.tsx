@@ -13,9 +13,15 @@ export default function AboutSection() {
             <img
               src="/about-image.png"
               alt="Technician repairing a smartphone"
-              className="w-full rounded-xl object-contain shadow-lg"
+              className="w-full rounded-[24px] object-contain shadow-[0_20px_70px_rgba(15,23,42,0.16)]"
               loading="lazy"
             />
+            <div className="absolute bottom-4 left-4 right-4 rounded-2xl border border-white/20 bg-slate-950/80 p-4 text-white backdrop-blur-sm">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.25em] text-orange-300">
+                {t('about.badge')}
+              </p>
+              <p className="mt-1 text-sm font-medium">{t('about.badgeText')}</p>
+            </div>
           </div>
 
           {/* Content */}

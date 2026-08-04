@@ -1,31 +1,50 @@
 import ParticleCanvas from './ParticleCanvas'
+import { Clock3, MapPin, ShieldCheck } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 export default function HeroSection() {
   const { t } = useTranslation()
-  
+
+  const trustPoints = [
+    { key: 'hero.trust1', icon: ShieldCheck },
+    { key: 'hero.trust2', icon: Clock3 },
+    { key: 'hero.trust3', icon: MapPin },
+  ]
+
   return (
     <section id="home" className="relative min-h-[100dvh] overflow-hidden flex items-center">
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-900/70 to-slate-950/50" />
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/75 to-slate-950/50" />
 
       <div className="absolute inset-0">
         <ParticleCanvas />
       </div>
 
-      {/* Content */}
-        <div className="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 w-full">
-        <div className="max-w-[600px]">
-          <span className="inline-block text-xs font-semibold uppercase tracking-[0.15em] text-orange-500 mb-5">
+      <div className="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 w-full">
+        <div className="max-w-[680px]">
+          <span className="inline-flex items-center rounded-full border border-orange-400/30 bg-white/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.25em] text-orange-300 backdrop-blur-sm">
+            <span className="mr-2 h-2 w-2 rounded-full bg-orange-400" />
             {t('hero.subtitle')}
           </span>
 
-          <h1 className="text-white font-bold leading-[1.1]" style={{ fontSize: 'clamp(28px, 5vw, 64px)' }}>
+          <h1 className="mt-6 text-white font-bold leading-[1.08]" style={{ fontSize: 'clamp(30px, 5vw, 66px)' }}>
             {t('hero.title')}
           </h1>
 
-          <p className="mt-6 text-sm sm:text-lg text-white/90 max-w-[520px] leading-relaxed">
+          <p className="mt-6 text-sm sm:text-lg text-white/90 max-w-[560px] leading-relaxed">
             {t('hero.description')}
           </p>
+
+          <div className="mt-7 flex flex-wrap gap-2.5">
+            {trustPoints.map(({ key, icon: Icon }) => (
+              <div
+                key={key}
+                className="flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-2 text-sm text-white/90 backdrop-blur-sm"
+              >
+                <Icon size={16} className="text-orange-300" />
+                <span>{t(key)}</span>
+              </div>
+            ))}
+          </div>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
